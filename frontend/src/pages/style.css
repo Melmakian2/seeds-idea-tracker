@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1000;
+    }
+
+.top-bar {
+    table-layout: fixed; 
+    margin: 0;
+    padding: 0;
+    margin-left: -10px;
+    margin-right: 5px;
+    width: 100vw; 
+    background-color: #6a4026;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+
+.top-bar-profile {
+    table-layout: fixed;
+    margin: 0;
+    padding: 0;
+    width: 15vw; 
+    height: 9.99vh;
+    background-color: #6a4026;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-family: 'B612', sans-serif 
+}
+
+td{
+    font-family: 'Roboto', sans-serif;
+}
+
+    
